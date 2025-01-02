@@ -1,0 +1,9 @@
+kafkaui:
+  server:
+    # The port Kafka UI will run on
+    port: 8080
+  kafka:
+    clusters:
+      - name: "Local Kafka Cluster"
+        # Bootstrap servers for the Kafka cluster
+        bootstrapServers: "kafka1:9092"
